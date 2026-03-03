@@ -7,13 +7,13 @@ class minimumwindow2 {
         int n = s.length();
         int m = t.length();
 
-        if(m > n) return "-1";
+        
 
         int[] freq = new int[256];
 
         // Store frequency of t
-        for(char c : t.toCharArray()) {
-            freq[c]++;
+        for(int i=0;i<n;i++) {
+            freq[s.charAt(i)]++;
         }
 
         int left = 0;
