@@ -4,7 +4,7 @@ This repository contains my Data Structures and Algorithms practice problems sol
 
 🎯 Goal
 
-- Solve 2 problems daily
+- Solve 1-2 problems daily
 - Improve problem-solving and logical thinking
 - Prepare for campus placements
 
