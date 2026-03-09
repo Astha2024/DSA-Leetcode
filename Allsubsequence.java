@@ -15,3 +15,4 @@ public class Allsubsequence {
     }
     
 }
+//a recursion kind of problem where through recursion stack we are seraching again and again
