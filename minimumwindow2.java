@@ -7,7 +7,7 @@ class minimumwindow2 {
         int n = s.length();
         int m = t.length();
 
-        if(m > n) return "-1";
+        if(m > n) return "";
 
         int[] freq = new int[256];
 
@@ -58,7 +58,7 @@ class minimumwindow2 {
             right++;
         }
 
-        if(startIndex == -1) return "-1";
+        if(startIndex == -1) return "";
 
         return s.substring(startIndex, startIndex + minLen);
     }
