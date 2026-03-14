@@ -14,4 +14,4 @@ class Solution {
        }
             return dp[n-1]; }
 }
-//T.c=o(n) S.c =o(N) can reduce the s.c using variabless instead of an array as all problems like this can b e solved bya third variable
+//T.c=o(n) S.c =o(n) can reduce the s.c using variabless instead of an array as all problems like this can b e solved bya third variable
